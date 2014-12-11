@@ -51,6 +51,7 @@ $(function() {
 	});
 
 	$(".nav-btn").click(function () {
+        window.location.hash = $(this).attr('href').replace('#', '');
 		$('#menu .container > input[type=checkbox]').removeAttr('checked');
 	});
 
