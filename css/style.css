@@ -15,10 +15,9 @@ h1, h2, h3, h4 {
 h1 {
 	text-align: center;
 	font-size: 3em;
-	margin: 0;
+	margin: 0 0 1em;
 	font-weight: 500;
-	text-shadow: 0 4px 0 rgba(0,0,0,.2);
-    margin-bottom: 1em;
+	text-shadow: 0 4px 0 rgba(0,0,0,.1);
 }
 
 h2 {
@@ -29,7 +28,6 @@ h2 {
 }
 
 h3 {
-	text-align: center;
 	font-size: 2em;
 	font-weight: 100;
 	margin: 0 0 1em;
@@ -354,6 +352,8 @@ nav input[type=checkbox] {
 	padding: 0.7em;
 	color: white;
 	font-size: 1.33333em;
+    margin-bottom: 0;
+    text-align: center;
 }
 
 #program .day-2 {
@@ -375,7 +375,7 @@ nav input[type=checkbox] {
 	border-top: 1px solid #2c2e35;
 	border-left: 1px solid #2c2e35;
 	border-right: 1px solid #2c2e35;
-	color: #2c2e35;
+	color: #ffffff;
 	background-color: #EEFCE1;
 	padding: .5em;
 	text-transform: uppercase;
@@ -384,7 +384,7 @@ nav input[type=checkbox] {
 
 #program .event-entity .block-type.break {
 	border-bottom: 1px solid #2c2e35;
-	background-color: #FFE9E4;
+	background-color: #19a2c9;
 }
 
 #program .event-entity .block-type.break img {
@@ -987,8 +987,7 @@ footer {
 
 .board .title {
     margin-top: 0;
-    margin-bottom: 0.6em;
-    color: #00A2CA;
+    margin-bottom: 3em;
 }
 
 .block-grid, #content .block-grid { display: block; overflow: hidden; padding: 0; }
